@@ -1,0 +1,31 @@
+doctype html 
+html
+     
+    title Suarez Football Academy    
+    head
+        style 
+            include ../static/contactstyle.css
+    block content 
+        
+        nav#navbar
+            ul   
+               li #[a(href = "/") Home]
+               li #[a(href = "/") About us]
+               li #[a(href = "/") Contact Info]
+               li #[a(href = "/") Address]
+               li #[a(href = "/") Services]
+        
+    H1 Contact Us
+    form(action='/contact', method='POST')
+      p
+        | Name: 
+        input(name='name', value='', type='text')
+        |          Phone no: 
+        input(name='phone', value='', type='number')
+        |          Email: 
+        input(name='email', value='', type='text')
+      input(value='Submit', type='submit')
+
+    footer#footersection 
+         | Dracula Starring Luis Suarez Coming soon to your nearest theatre
+             

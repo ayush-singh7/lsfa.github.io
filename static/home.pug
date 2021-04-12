@@ -1,0 +1,38 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+block style 
+    style  
+        include ../static/style.css
+
+block content 
+        
+        nav#navbar
+            ul  
+                
+               li #[a(href = "/") Home]
+               li #[a(href = "/") About us]
+               li #[a(href = "/") Contact Info]
+               li #[a(href = "/") Address]
+               li #[a(href = "/") Services]
+
+            section#introsection
+                div Luis Suarez FootBall Academy
+                div.small Play Hard Bite Harder
+            
+            h2 Our teachings 
+            section#missionsection 
+                 
+                div.card1 Chiellini doesnt taste good Nor does Ivanovic
+                div.card2 Biting appals people but its harmless 
+                div.card3 Diving is an art and I am an artist
+
+            h1 Our alumni 
+            section#alumnisection
+            
+                div.alum1 PeakaBoo Busi
+                div.alum2 ROlling THunder     
+            
+            
