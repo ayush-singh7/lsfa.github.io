@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+#navbar{
+    
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung' ;
+    padding-top: 13px;
+    height: 50px;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+#navbar ul{
+    display: flex;
+    padding-right: 800px;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#navbar li{
+    list-style: none;
+ 
+}
+#navbar li a{ 
+   text-decoration: none;
+   color:white;  
+    padding: 25px 35px;
+}
+#navbar li a:hover{
+    color: blue;
+    font-weight: bolder;  
+}
+#form{
+    background-color: red;
+    margin: auto;
+}
+
+#footersection{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 400px;
+    height: 45px;
+    color:white;
+    padding: 25px;
+    font-size: larger;
+    background-color: red;
+}
